@@ -155,10 +155,10 @@ This public overview excludes:
 - manuscripts, reviewer correspondence and ethics records; and
 - local paths, credentials and machine-specific files.
 
-Read [the disclosure boundary](docs/DISCLOSURE_BOUNDARY.md) before adding anything to this repository.
+Read [the disclosure boundary](adaptive-motor-imagery-bci-public-showcase/docs/DISCLOSURE_BOUNDARY.md) before adding anything to this repository.
 
 ## Project status and use
 
 This is an in-progress project overview, not the paper's code or data release. Any later reproducibility package should be prepared separately after journal, ethics, data-governance, co-author and intellectual-property review.
 
-Copyright © 2026 kiatechn. All rights reserved. See [NOTICE.md](NOTICE.md).
+Copyright © 2026 kiatechn. All rights reserved. See [NOTICE.md](adaptive-motor-imagery-bci-public-showcase/tests/NOTICE.md).
