@@ -1,0 +1,85 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1600" height="900" viewBox="0 0 1600 900" role="img" aria-labelledby="title description">
+  <title id="title">Adaptive motor-imagery BCI system overview</title>
+  <desc id="description">A publication-safe illustration showing EEG entering a confidence-aware pipeline and producing defend, punch or no action.</desc>
+  <defs>
+    <pattern id="grid" width="40" height="40" patternUnits="userSpaceOnUse">
+      <path d="M 40 0 L 0 0 0 40" fill="none" stroke="#17303a" stroke-width="1" opacity="0.55"/>
+    </pattern>
+    <filter id="glow" x="-40%" y="-40%" width="180%" height="180%">
+      <feGaussianBlur stdDeviation="7" result="blur"/>
+      <feMerge>
+        <feMergeNode in="blur"/>
+        <feMergeNode in="SourceGraphic"/>
+      </feMerge>
+    </filter>
+    <marker id="arrow" markerWidth="10" markerHeight="10" refX="8" refY="5" orient="auto">
+      <path d="M0,0 L10,5 L0,10 Z" fill="#5eead4"/>
+    </marker>
+  </defs>
+
+  <rect width="1600" height="900" fill="#071019"/>
+  <rect width="1600" height="900" fill="url(#grid)"/>
+
+  <text x="100" y="105" fill="#5eead4" font-family="ui-monospace, SFMono-Regular, Menlo, monospace" font-size="22" letter-spacing="4">KIATECHN · RESEARCH IN PROGRESS</text>
+  <text x="100" y="195" fill="#eef9f7" font-family="Inter, Helvetica, Arial, sans-serif" font-size="72" font-weight="700">From imagined movement</text>
+  <text x="100" y="277" fill="#eef9f7" font-family="Inter, Helvetica, Arial, sans-serif" font-size="72" font-weight="700">to controlled action.</text>
+  <text x="104" y="332" fill="#9cb5b8" font-family="Inter, Helvetica, Arial, sans-serif" font-size="27">A confidence-aware EEG pipeline designed to act, reject or wait.</text>
+
+  <g transform="translate(1010 98)">
+    <circle cx="225" cy="150" r="126" fill="#0b1823" stroke="#24434c" stroke-width="2"/>
+    <path d="M169 71 C126 88 105 128 110 169 C115 213 140 236 172 250 L174 293 L276 293 L278 250 C315 233 337 198 338 157 C339 110 309 73 264 61 C232 52 198 56 169 71 Z" fill="none" stroke="#5eead4" stroke-width="5" filter="url(#glow)"/>
+    <circle cx="166" cy="145" r="7" fill="#5eead4"/>
+    <circle cx="225" cy="111" r="7" fill="#5eead4"/>
+    <circle cx="284" cy="145" r="7" fill="#5eead4"/>
+    <circle cx="187" cy="198" r="7" fill="#5eead4"/>
+    <circle cx="263" cy="198" r="7" fill="#5eead4"/>
+    <path d="M-44 150 L-6 150 L12 119 L31 189 L52 95 L74 172 L95 128 L115 150" fill="none" stroke="#5eead4" stroke-width="4" stroke-linejoin="round" filter="url(#glow)"/>
+    <path d="M338 150 L367 150 L387 126 L407 177 L430 105 L451 158 L477 142 L516 142" fill="none" stroke="#5eead4" stroke-width="4" stroke-linejoin="round" filter="url(#glow)"/>
+  </g>
+
+  <line x1="105" y1="445" x2="1495" y2="445" stroke="#24434c" stroke-width="2"/>
+
+  <g font-family="Inter, Helvetica, Arial, sans-serif">
+    <g transform="translate(100 515)">
+      <text x="0" y="0" fill="#5eead4" font-size="18" font-weight="700" letter-spacing="2">01</text>
+      <text x="0" y="47" fill="#eef9f7" font-size="30" font-weight="700">EEG input</text>
+      <text x="0" y="84" fill="#9cb5b8" font-size="20">Scalp-recorded signal</text>
+      <path d="M0 139 L232 139" stroke="#5eead4" stroke-width="3" marker-end="url(#arrow)"/>
+    </g>
+
+    <g transform="translate(370 515)">
+      <text x="0" y="0" fill="#5eead4" font-size="18" font-weight="700" letter-spacing="2">02</text>
+      <text x="0" y="47" fill="#eef9f7" font-size="30" font-weight="700">Decode</text>
+      <text x="0" y="84" fill="#9cb5b8" font-size="20">Movement, then direction</text>
+      <path d="M0 139 L232 139" stroke="#5eead4" stroke-width="3" marker-end="url(#arrow)"/>
+    </g>
+
+    <g transform="translate(640 515)">
+      <text x="0" y="0" fill="#5eead4" font-size="18" font-weight="700" letter-spacing="2">03</text>
+      <text x="0" y="47" fill="#eef9f7" font-size="30" font-weight="700">Check</text>
+      <text x="0" y="84" fill="#9cb5b8" font-size="20">Confidence and stability</text>
+      <path d="M0 139 L232 139" stroke="#5eead4" stroke-width="3" marker-end="url(#arrow)"/>
+    </g>
+
+    <g transform="translate(910 515)">
+      <text x="0" y="0" fill="#5eead4" font-size="18" font-weight="700" letter-spacing="2">04</text>
+      <text x="0" y="47" fill="#eef9f7" font-size="30" font-weight="700">Adapt</text>
+      <text x="0" y="84" fill="#9cb5b8" font-size="20">Bounded controller response</text>
+      <path d="M0 139 L232 139" stroke="#5eead4" stroke-width="3" marker-end="url(#arrow)"/>
+    </g>
+
+    <g transform="translate(1180 515)">
+      <text x="0" y="0" fill="#5eead4" font-size="18" font-weight="700" letter-spacing="2">05</text>
+      <text x="0" y="47" fill="#eef9f7" font-size="30" font-weight="700">Act or wait</text>
+      <text x="0" y="84" fill="#9cb5b8" font-size="20">Defend · punch · no action</text>
+    </g>
+  </g>
+
+  <g transform="translate(100 760)" font-family="Inter, Helvetica, Arial, sans-serif">
+    <rect width="1400" height="78" rx="12" fill="#0b1823" stroke="#24434c" stroke-width="2"/>
+    <circle cx="38" cy="39" r="8" fill="#5eead4"/>
+    <text x="64" y="47" fill="#c7dcda" font-size="21">PUBLIC SHOWCASE</text>
+    <text x="308" y="47" fill="#789397" font-size="21">Synthetic visual · no participant data · no research implementation · no unpublished numerical results</text>
+  </g>
+</svg>
+
