@@ -161,4 +161,4 @@ Read [the disclosure boundary](adaptive-motor-imagery-bci-public-showcase/docs/D
 
 This is an in-progress project overview, not the paper's code or data release. Any later reproducibility package should be prepared separately after journal, ethics, data-governance, co-author and intellectual-property review.
 
-Copyright © 2026 kiatechn. All rights reserved. See [NOTICE.md](adaptive-motor-imagery-bci-public-showcase/tests/NOTICE.md).
+Copyright © 2026 kiatechn. All rights reserved. See [NOTICE.md](adaptive-motor-imagery-bci-public-showcase/NOTICE.md).
