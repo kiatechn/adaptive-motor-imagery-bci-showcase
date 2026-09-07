@@ -48,9 +48,6 @@ The complete implementation and reproducibility materials remain in the private 
 
 ## 3. System architecture
 
-<p align="center">
-  <img src="assets/system-overview.svg" alt="High-level EEG-to-action system overview" width="100%">
-</p>
 
 ```mermaid
 flowchart LR
